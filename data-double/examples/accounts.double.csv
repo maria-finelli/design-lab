@@ -1,0 +1,31 @@
+account_id,company,contact_name,email,phone,plan,seats,monthly_spend,signup_date,last_active,region,notes
+XHE-52572,Vector Associates,Bo Herrera-Li,desmond@lumen.example,(517) 555-0194,Business,12,$283.66,2026-03-02,2026-07-30,US-East,
+NMY-20178,Ox Larkspur Inc.,Lena Nwosu,cyrus@vale.test,(812) 555-0175,Team,46,$682.69,2025-06-30,2025-09-29,APAC,Migrated from legacy import. Data looks weird for March.
+HSL-48077,Onyx Ivy Labs,Ines Fox,gus@fir.test,,Business,5,$124.31,2025-10-26,2026-02-11,US-East,Escalated by Ines Fox after outage; follow up at their main line
+GFP-95178,Millbrook Cobalt Holdings,Rafferty Li,lena@linden.test,(683) 555-0155,Business,9,$221.58,2025-11-25,2026-01-30,US-West,Escalated by Rafferty Li after outage; follow up at (683) 555-0155
+RQR-82078,Ashby Studio,Leopold Shah,kim@onyx.test,(258) 555-0160,Starter,43,$367.29,2025-12-28,2026-04-30,APAC,Migrated from legacy import. Data looks weird for March.
+YWC-55674,Ivy Quill Marlow Nimbus Rowan Harbor Onyx Linden Calloway Elm Atlas Vale Inc.,Amara Abernathy,hana@ox.test,(992) 555-0157,Team,11,$179.77,2026-03-11,2026-06-21,APAC,
+VRM-05035,Larkspur Co.,Leopold Li,ruiz@tidal.test,(303) 555-0199,Team,6,$93.87,2026-03-08,2026-07-28,APAC,Asked about SSO again
+WXH-57862,Alder Co.,Amara Abernathy,dana@ox.example,(699) 555-0144,Team,1,$14.20,2026-02-15,2026-07-31,US-East,
+KGJ-37131,Juniper Drift Group,Gus Shah,ishah@elm.test,(499) 555-0170,Business,17,$381.57,2026-04-27,2026-10-15,US-East,"Renewal owner is Gus Shah, cc ishah@elm.test"
+EAX-30399,Fable Quill Management,Maximilian Kim-Oyelaran,tess@wexford.test,(310) 555-0132,Team,9,$159.04,2026-03-16,2026-06-30,US-West,Escalated by Maximilian Kim-Oyelaran after outage; follow up at (310) 555-0132
+GBS-82555,Quill Keystone Industries,Florian Brady-Ng,ines@harbor.test,(501) 555-0182,Starter,19,$151.95,2024-12-30,,EU,
+DFX-05733,Alder Summit Cobalt Group,Leopold Li,rosa@ivy.test,,Team,6,$96.62,2025-04-06,2025-08-17,US-West,Escalated by Leopold Li after outage; follow up at their main line
+GJG-71902,Onyx Inc.,Gus Shah,ikim@quill.test,(489) 555-0177,Team,9,$118.85,2026-04-23,2026-05-05,US-West,Asked about SSO again
+MDE-34365,Ashby Dunmore Westerly Wexford Underhill Co.,Florian Brady-Ng,bli@orchard.test,(518) 555-0196,Enterprise,3681,"$71,844.80",2026-04-13,2026-05-03,US-East,"Renewal owner is Florian Brady-Ng, cc bli@orchard.test"
+BLJ-16359,Zephyr Linden Collective,Ines Fox,jli@calloway.test,(865) 555-0180,Team,7,$117.28,2026-04-05,2026-06-14,US-East,
+BWA-01332,Drift Onyx LLC,Cyrus Shah,snwosu@rowan.test,(740) 555-0197,Business,6,$152.16,2026-04-20,2026-09-25,APAC,Escalated by Cyrus Shah after outage; follow up at (740) 555-0197
+TXB-51563,Summit Ivy Industries,Maximilian Kim-Oyelaran,shah@bellamy.test,(862) 555-0173,Team,3,$34.61,2024-12-16,2025-06-18,US-East,Escalated by Maximilian Kim-Oyelaran after outage; follow up at (862) 555-0173
+EUE-23558,Thistle Cooperative,Ines Fox,lli@fennel.test,(892) 555-0198,Team,3,$34.33,2026-05-10,2026-08-07,APAC,Asked about SSO again
+JHP-78973,Fable Yarrow LLC,Leopold Li,ines@lumen.test,(957) 555-0136,Starter,6,$40.51,2026-03-10,2026-05-13,EU,
+NKB-47430,Prism Management,Bo Herrera-Li,jbrady@umber.test,(466) 555-0127,Business,5,$115.97,2026-04-21,2026-06-10,US-West,Escalated by Bo Herrera-Li after outage; follow up at (466) 555-0127
+DSH-54490,Harbor Partners,Florian Brady-Ng,pfox@prism.test,(638) 555-0188,Team,4,$44.46,2026-05-29,,US-West,Migrated from legacy import. Data looks weird for March.
+ZVH-81455,Dunmore Prism LLC,Cyrus Shah,okafor@atlas.test,(657) 555-0157,Team,9,$162.32,2025-06-04,,APAC,"Renewal owner is Cyrus Shah, cc okafor@atlas.test"
+XLN-65888,Brindle Partners,Gus Shah,mateo@ridge.test,(499) 555-0156,Business,31,$760.23,2025-09-28,2026-04-09,US-West,Migrated from legacy import. Data looks weird for March.
+JFL-44492,Oakhurst Umber Co.,Florian Brady-Ng,tess@ember.test,(491) 555-0161,Team,26,$412.84,2025-06-09,2025-08-18,US-East,Asked about SSO again
+QDJ-62504,Ivy Logistics,Ines Fox,eli@brindle.test,(544) 555-0187,Team,2,$28.23,2024-10-21,2025-03-03,EU,
+GNP-60630,Nimbus Beacon Ox LLC,Maximilian Kim-Oyelaran,dana@drift.test,(537) 555-0181,Starter,13,$107.31,2026-06-01,2026-06-12,APAC,
+MTE-17804,Harbor Logistics,Bo Herrera-Li,desmond@alder.test,(628) 555-0140,Starter,5,$44.07,2025-04-28,2025-07-11,US-East,Asked about SSO again
+BJA-07365,Granite Ox Associates,Harriet Ng,pia@fable.example,(588) 555-0187,Business,29,$612.43,2026-03-26,,US-East,
+GCP-25476,Harrow Holdings,Ada Nwosu-Montgomery-Shah,ishah@westerly.test,(308) 555-0171,Business,3,$60.68,2025-06-25,,US-East,Asked about SSO again
+ETC-50443,Granite Harrow Quarry Co.,Ada Nwosu-Montgomery-Shah,farah@ashby.test,(238) 555-0132,Business,8,$198.48,2025-10-15,2026-02-08,EU,

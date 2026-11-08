@@ -1,0 +1,31 @@
+account_id,company,contact_name,email,phone,plan,seats,monthly_spend,signup_date,last_active,region,notes
+ACC-47649,Brightline Dental,Dmitri Volkov,dmitri@brightline.io,(203) 828-2322,Business,14,$339.21,2026-05-25,2026-10-22,US-East,
+ACC-54616,Kettle & Pine,Avery Lund,avery@kettle.io,(964) 725-2250,Team,55,$777.19,2025-09-22,2025-12-22,APAC,Migrated from legacy import. Data looks weird for March.
+ACC-82672,Oriel Freight,Jun Park,jun@oriel.io,,Business,6,$138.50,2026-01-19,2026-05-07,US-East,Escalated by Jun Park after outage; follow up at their main line
+ACC-13326,Mossgate Veterinary Group,Noor Haddad,noor@mossgate.io,(778) 690-9404,Business,10,$258.02,2026-02-17,2026-04-24,US-West,Escalated by Noor Haddad after outage; follow up at (778) 690-9404
+ACC-71525,Tandem Bikes,Bea Castillo,bea@tandem.io,(325) 841-8484,Starter,52,$434.08,2026-03-23,2026-07-24,APAC,Migrated from legacy import. Data looks weird for March.
+ACC-29640,The Northwestern Regional Cooperative of Independent Veterinary Practitioners,Isla McAllister,isla@the.io,(502) 475-1151,Team,13,$196.88,2026-06-03,2026-09-13,APAC,
+ACC-22894,Halcyon Labs,Otis Pryce,otis@halcyon.io,(235) 497-6188,Team,7,$104.30,2026-06-01,2026-10-21,APAC,Asked about SSO again
+ACC-63911,Quorra,Isla McAllister,isla@quorra.io,(711) 579-2583,Team,1,$16.03,2026-05-11,2026-10-24,US-East,
+ACC-97108,Sable Street Bakery,Chidi Obi,chidi@sable.io,(566) 358-1084,Business,19,$414.47,2026-07-20,2027-01-07,US-East,"Renewal owner is Chidi Obi, cc chidi@sable.io"
+ACC-64006,Fieldnote Architecture,Esme Hartwell-Fairbanks,esme@fieldnote.io,(339) 800-6013,Team,11,$180.12,2026-06-08,2026-09-22,US-West,Escalated by Esme Hartwell-Fairbanks after outage; follow up at (339) 800-6013
+ACC-76897,Parallax Physical Therapy,Ravi Subramanian,ravi@parallax.io,(562) 988-1422,Starter,23,$179.93,2025-03-24,,EU,
+ACC-54095,Iron Kite Coffee Roasters,Otis Pryce,otis@iron.io,,Team,7,$106.50,2025-06-30,2025-11-10,US-West,Escalated by Otis Pryce after outage; follow up at their main line
+ACC-98949,Juno,Chidi Obi,chidi@juno.io,(973) 856-4088,Team,10,$136.36,2026-07-17,2026-07-29,US-West,Asked about SSO again
+ACC-70806,Westbrook Unified School District Facilities,Ravi Subramanian,ravi@westbrook.io,(392) 552-3862,Enterprise,4180,"$75,811.26",2026-07-06,2026-07-26,US-East,"Renewal owner is Ravi Subramanian, cc ravi@westbrook.io"
+ACC-69521,Copperleaf Senior Living,Jun Park,jun@copperleaf.io,(420) 436-1080,Team,9,$133.50,2026-06-29,2026-09-07,US-East,
+ACC-48626,Nimbus Courier,Sloane Ito,sloane@nimbus.io,(770) 969-4513,Business,7,$174.29,2026-07-13,2026-12-18,APAC,Escalated by Sloane Ito after outage; follow up at (770) 969-4513
+ACC-51097,Greywater Brewing Co.,Esme Hartwell-Fairbanks,esme@greywater.io,(862) 845-2741,Team,3,$42.04,2025-03-10,2025-09-10,US-East,Escalated by Esme Hartwell-Fairbanks after outage; follow up at (862) 845-2741
+ACC-51427,Starling Pediatrics,Jun Park,jun@starling.io,(667) 821-1622,Team,3,$41.61,2026-08-03,2026-10-31,APAC,Asked about SSO again
+ACC-46887,Ox & Anchor,Otis Pryce,otis@ox.io,(565) 259-8155,Starter,6,$49.79,2026-06-03,2026-08-06,EU,
+ACC-26080,Lattice Learning,Dmitri Volkov,dmitri@lattice.io,(939) 315-3656,Business,5,$129.67,2026-07-15,2026-09-03,US-West,Escalated by Dmitri Volkov after outage; follow up at (939) 315-3656
+ACC-38778,Bramble Florals,Ravi Subramanian,ravi@bramble.io,(587) 445-7897,Team,4,$54.35,2026-08-21,,US-West,Migrated from legacy import. Data looks weird for March.
+ACC-28174,Redfern Legal Aid,Sloane Ito,sloane@redfern.io,(691) 627-5322,Team,11,$174.46,2025-08-27,,APAC,"Renewal owner is Sloane Ito, cc sloane@redfern.io"
+ACC-41825,Corvid Analytics,Chidi Obi,chidi@corvid.io,(258) 873-1186,Business,36,$919.27,2025-12-22,2026-07-03,US-West,Migrated from legacy import. Data looks weird for March.
+ACC-93494,Pomelo Kids Clinic,Ravi Subramanian,ravi@pomelo.io,(406) 583-6883,Team,31,$506.94,2025-09-01,2025-11-10,US-East,Asked about SSO again
+ACC-49195,Driftwood Inn,Jun Park,jun@driftwood.io,(239) 854-3827,Team,2,$29.91,2025-01-13,2025-05-26,EU,
+ACC-94416,Arcadia Self Storage,Esme Hartwell-Fairbanks,esme@arcadia.io,(590) 751-9463,Starter,15,$120.80,2026-08-25,2026-09-05,APAC,
+ACC-34732,Saltbox Hardware,Dmitri Volkov,dmitri@saltbox.io,(493) 565-3195,Starter,6,$50.28,2025-07-21,2025-10-03,US-East,Asked about SSO again
+ACC-77501,Meadowlark Montessori,Paz Moreno,paz@meadowlark.io,(349) 367-1465,Business,32,$717.45,2026-06-18,,US-East,
+ACC-44415,Tessellate Tile,Lucia Bergamaschi-Rinaldi,lucia@tessellate.io,(697) 309-2198,Business,3,$67.02,2025-09-17,,US-East,Asked about SSO again
+ACC-21516,Hearth & Hollow Interiors,Lucia Bergamaschi-Rinaldi,lucia@hearth.io,(554) 284-2131,Business,9,$216.82,2026-01-08,2026-05-04,EU,

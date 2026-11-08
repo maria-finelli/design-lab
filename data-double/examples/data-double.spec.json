@@ -1,0 +1,32 @@
+{
+  "fields": {
+    "account_id": "id",
+    "company": "org",
+    "contact_name": "person",
+    "email": "email",
+    "phone": "phone",
+    "plan": "keep",
+    "seats": "number",
+    "monthly_spend": "number",
+    "signup_date": "date",
+    "last_active": "date",
+    "region": "keep",
+    "notes": "text",
+    "id": "uuid",
+    "placed_at": "date",
+    "shipped_at": "date",
+    "ship_to.name": "person",
+    "ship_to.company": "org",
+    "ship_to.address": "place",
+    "ship_to.city": "keep",
+    "items[].sku": "id",
+    "items[].qty": "number",
+    "items[].unit_price": "number",
+    "status": "keep"
+  },
+  "seed": 449280,
+  "scale": 0.878,
+  "shift_weeks": -12,
+  "jitter": 0.08,
+  "record_jitter_hours": 12
+}
