@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Fidelity Slider</title>
+    <meta
+      name="description"
+      content="Fidelity Slider demo: one lever from the design alone to the full interface around it."
+    />
+    <link rel="stylesheet" href="demo.css" />
+  </head>
+  <body>
+    <!-- A fictional reading-analytics tool. All names and numbers are synthetic. -->
+    <div class="app">
+      <aside class="side">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true"></span>Tideline
+        </div>
+        <nav class="nav" aria-label="Sections">
+          <a href="#" aria-current="page">Readership</a>
+          <a href="#">Stories</a>
+          <a href="#">Newsletters</a>
+          <a href="#">Contributors</a>
+          <a href="#">Archive</a>
+        </nav>
+      </aside>
+
+      <main class="main">
+        <header class="top">
+          <div class="search" role="search">
+            <input
+              type="search"
+              placeholder="Search stories, people, issues"
+              aria-label="Search"
+            />
+          </div>
+          <button class="btn-ghost" type="button">Export</button>
+          <button class="btn" type="button">New report</button>
+          <div class="avatar" title="June Okafor, managing editor">JO</div>
+        </header>
+
+        <div class="page">
+          <div class="page-head">
+            <div>
+              <p class="eyebrow">Readership</p>
+              <h1>Autumn issue, week 6</h1>
+            </div>
+            <div
+              class="range"
+              data-fs-keep
+              role="group"
+              aria-label="Date range"
+            >
+              <button type="button">7 days</button>
+              <button type="button" aria-pressed="true">30 days</button>
+              <button type="button">Quarter</button>
+            </div>
+          </div>
+
+          <section class="kpis" aria-label="Summary">
+            <div class="kpi">
+              <span>Readers</span><strong>48,210</strong
+              ><em class="up">+6.2%</em>
+            </div>
+            <div class="kpi">
+              <span>Avg. time on story</span><strong>4m 12s</strong
+              ><em class="up">+18s</em>
+            </div>
+            <div class="kpi">
+              <span>Newsletter opens</span><strong>61%</strong
+              ><em class="down">&minus;1.4 pts</em>
+            </div>
+            <div class="kpi">
+              <span>New subscribers</span><strong>1,094</strong
+              ><em class="up">+9.0%</em>
+            </div>
+          </section>
+
+          <div class="grid">
+            <!-- The design under evaluation -->
+            <article
+              class="card focus-card"
+              data-fs-focus
+              aria-labelledby="depth-title"
+            >
+              <div class="card-head">
+                <div>
+                  <h2 id="depth-title">Reading depth</h2>
+                  <p>How far readers get through each section of a story</p>
+                </div>
+                <div class="legend">
+                  <span><i class="sw sw-a"></i>Feature</span>
+                  <span><i class="sw sw-b"></i>Section average</span>
+                </div>
+              </div>
+              <div class="depth-stats">
+                <div><strong>72%</strong><span>reach the midpoint</span></div>
+                <div><strong>41%</strong><span>finish the story</span></div>
+                <div>
+                  <strong>Section 4</strong><span>largest drop-off</span>
+                </div>
+              </div>
+              <div class="chart" id="depth-chart"></div>
+              <p class="note">
+                Story: &ldquo;The Last Ferryman of Calder Sound&rdquo;, 3,800
+                words, published Oct 14
+              </p>
+            </article>
+
+            <aside class="card list-card" aria-labelledby="top-title">
+              <h2 id="top-title">Top stories</h2>
+              <ol class="stories">
+                <li>
+                  <span>The Last Ferryman of Calder Sound</span><b>12.4k</b>
+                </li>
+                <li>
+                  <span>A Year of Eating Only Local Grain</span><b>9.8k</b>
+                </li>
+                <li><span>Notes from the Night Market</span><b>7.1k</b></li>
+                <li><span>The Quiet Economics of Repair</span><b>6.6k</b></li>
+                <li><span>Letters to a Lighthouse Keeper</span><b>5.2k</b></li>
+              </ol>
+              <a class="more" href="#">All stories</a>
+            </aside>
+          </div>
+
+          <section class="card table-card" aria-labelledby="iss-title">
+            <h2 id="iss-title">Recent issues</h2>
+            <table>
+              <thead>
+                <tr>
+                  <th>Issue</th>
+                  <th>Sent</th>
+                  <th>Opens</th>
+                  <th>Clicks</th>
+                  <th>Unsubscribes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>No. 46, Tidewater</td>
+                  <td>Nov 2</td>
+                  <td>62%</td>
+                  <td>14.1%</td>
+                  <td>0.2%</td>
+                </tr>
+                <tr>
+                  <td>No. 45, Harvest Table</td>
+                  <td>Oct 26</td>
+                  <td>60%</td>
+                  <td>12.8%</td>
+                  <td>0.3%</td>
+                </tr>
+                <tr>
+                  <td>No. 44, Small Rooms</td>
+                  <td>Oct 19</td>
+                  <td>63%</td>
+                  <td>15.0%</td>
+                  <td>0.1%</td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+        </div>
+      </main>
+    </div>
+
+    <!-- Demo caption. data-fs-ignore keeps the slider from treating it as context. -->
+    <aside class="caption" data-fs-ignore aria-live="polite">
+      <p class="cap-k">Fidelity</p>
+      <p class="cap-level" id="cap-level">Full</p>
+      <p class="cap-desc" id="cap-desc"></p>
+      <p class="cap-keys">
+        <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd><kbd>4</kbd> levels
+        <span class="sep"></span> <kbd>.</kbd> show or hide
+      </p>
+    </aside>
+
+    <script src="demo.js"></script>
+    <script
+      src="../src/fidelity-slider.js"
+      data-ui="on"
+      data-level="full"
+    ></script>
+  </body>
+</html>
