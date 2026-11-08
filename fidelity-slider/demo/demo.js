@@ -99,7 +99,7 @@
     outline:
       "The rest of the page as flat blocks: where the design sits, without the content.",
     muted:
-      "The real page, faded and grayscale, not clickable. The date filter stays live.",
+      "The real page, faded and grayscale, not clickable.",
     full: "Everything, as built.",
   };
   var NAMES = {
@@ -116,7 +116,7 @@
 
   document.addEventListener("DOMContentLoaded", function () {
     drawChart(document.getElementById("depth-chart"));
-    // The range filter is "kept" context: it stays real at Outline and Muted.
+    // The range toggle is ordinary context, so it follows the levels like the rest of the page.
     var range = document.querySelector(".range");
     range.addEventListener("click", function (e) {
       var b = e.target.closest("button");
