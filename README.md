@@ -20,6 +20,16 @@ A floating slider that lets you move between four levels—Isolated, Outline, Mu
 
 ---
 
+### [Data Double](data-double/)
+
+**A stunt double for production data.**
+
+A Claude Code skill and standalone Python tool for generating synthetic datasets that preserve useful characteristics of real data—uneven distributions, outliers, missing values, long labels, and differences in scale—so prototypes face realistic conditions without using actual customer records.
+
+[Explore Data Double](data-double/) · [Install the skill](data-double/#install-the-skill) · [View the Python source](data-double/skills/data-double/scripts/double.py)
+
+---
+
 More experiments to come.
 
 [Portfolio](https://maria-sara.com) · [LinkedIn](https://www.linkedin.com/in/finellimaria)
