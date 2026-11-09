@@ -1,0 +1,18 @@
+# Data Double outputs that can reveal original identifiers.
+**/*.mapping.json
+
+# Specs can contain original names and identifiers in the `terms` field.
+**/*.spec.json
+# Explicitly public, invented examples are OK to keep in the repo.
+!data-double/examples/*.spec.json
+
+# Put raw customer exports and other sensitive input files here.
+data-double/local-data/
+
+# Common secrets and local artifacts.
+.env
+.env.*
+!.env.example
+__pycache__/
+*.py[cod]
+.DS_Store
