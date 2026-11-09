@@ -18,8 +18,10 @@ Two rules, and everything below serves them:
 1. **Keep the shape.** Record counts, list lengths, missing values, outliers, the ratio
    of every value to every other, label lengths, durations, weekday patterns, the order
    of events. The prototype should hit the same problems it would hit with real data.
-2. **Lose the identity.** Nobody should be able to tell which customer, person or place
-   it came from, even someone who knows the real data well.
+2. **Lose the identity.** Replace direct identifiers while preserving the characteristics
+   that stress the design. Synthetic data can still reveal identities through distinctive
+   values or combinations, so inspect and coarsen or remove identifying outliers before
+   sharing.
 
 ## The fast path: mirror
 

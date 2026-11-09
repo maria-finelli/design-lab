@@ -138,7 +138,9 @@ Spec format: [skills/data-double/references/spec.md](skills/data-double/referenc
 - `scan`, `profile` and `mirror` never print raw values. Text shows as a mask
   (`Aaaaa Aaaa 99`), so you (or an AI assistant running the tool) can judge each field
   without reading the data. The skill tells Claude not to open the raw file.
-- Everything runs locally. Nothing is uploaded.
+- The Python script processes files locally and does not upload data itself. If you
+  use it through an AI agent, follow your organization's data-handling policy and do
+  not paste or expose raw customer records to the model.
 - Fake emails use reserved domains (`example.com`, `.test`, `.example`) and US phones
   use the fictional 555-01xx range, so nothing reaches a real person.
 
